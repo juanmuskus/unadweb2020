@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: Roboto;
+    background-image: linear-gradient(whitesmoke,white);
+}
+
+#titulo{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    text-shadow: 1px 1px gray;
+}
+#datos{
+    padding: 20px;
+    border:1px solid black;
+    color: black
+}
+
+th{
+    font-weight: bold;
+    background-color: LIGHTGRAY;  
+}
+tr, td, th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr:hover {
+    background-color: LIGHTCYAN;
+}
