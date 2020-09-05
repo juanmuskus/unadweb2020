@@ -29,7 +29,15 @@ table{
     border-collapse: collapse;
     width: 100%;
 }
+footer{
+    text-align: center;
+}
+
 
 table tr:hover {
     background-color: LIGHTCYAN;
+}
+
+#titags{
+    width: 150px;
 }
